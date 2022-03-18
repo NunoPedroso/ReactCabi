@@ -1,0 +1,20 @@
+.graficoConteiner{
+  display: inline-block;
+    width:  40%;
+  min-width: 200px;
+  background-color: #67276c;
+  vertical-align: top;
+  .grafico{
+    width: 100%;
+    margin: 0;
+    display: inline-block !important;
+    vertical-align: top;
+  }
+  .grafico1{
+    width: 100%;
+    margin: 0;
+    display: inline-block !important;
+    background-color: #296c27;
+    vertical-align: top;
+  }
+}

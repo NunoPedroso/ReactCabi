@@ -1,0 +1,56 @@
+.tabelaResumo{
+  max-width: 100%;
+  background-color: aqua;
+  display: inline-block;
+  vertical-align: top;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto 1em auto ;
+
+  th{
+    background-color: #67276c;
+    color: white;
+    width: 10%;
+  }
+
+  td{
+    color: #1e1e1e;
+  }
+
+  thead tr:first-child th:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  thead tr:first-child th:last-child {
+    border-top-right-radius: 5px;
+  }
+  thead tr:last-child th:first-child {
+
+  }
+  thead tr:last-child th:last-child {
+    border-bottom-right-radius: 5px;
+  }
+
+  tbody tr:nth-child(2n) td{
+    background-color: #eaeaea;
+  }
+  tbody tr:nth-child(2n) td:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  tbody tr:nth-child(2n) td:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .grafico1{
+    max-width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+    background-color: #296c27;
+    margin: 1em auto;
+
+  }
+}
